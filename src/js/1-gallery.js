@@ -90,6 +90,5 @@ galleryContainer.insertAdjacentHTML('beforeend', galleryCardsSet);
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionPosition: 'bottom',
   captionDelay: 250,
 });
