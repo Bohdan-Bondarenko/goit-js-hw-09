@@ -28,6 +28,7 @@ function createFormMarkup() {
   let dataForm = loadFormData();
   
   function onInputData(e) {
+    let dataForm = loadFormData();
     const { email, message } = form.elements;
     dataForm = { email: email.value.trim(), message: message.value.trim() };
     localStorage.setItem(LOCAL_KEY, JSON.stringify(dataForm));
